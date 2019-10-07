@@ -1,2 +1,5 @@
-# blog-yunusemre
-Bu repoda Yunus Emre Gündoğmuş'un veribilimiokulu.com'da yazmış olduğu blog yazılarına ait kodlar bulunmaktadır.
+# Python ve Flask ile Uçtan Uca Veri Bilimi Proje Geliştirme Süreci
+### Ekim 2019 - Yunus Emre Gündoğmuş
+
+
+# Kurulum

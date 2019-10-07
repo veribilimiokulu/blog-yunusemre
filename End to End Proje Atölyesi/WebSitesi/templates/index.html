@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" href="https://img.icons8.com/ios-glyphs/30/000000/no-gluten.png">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+<style>
+body, html {
+  height: 100%;
+}
+
+.bg { 
+  /* The image used */
+  background-image: url("https://mdbootstrap.com/img/Photos/Horizontal/Nature/full page/img(20).jpg");
+
+  /* Full height */
+  height: 100%; 
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+</style>
+
+</head>
+<body>
+<div class="bg">
+
+<center><h1>Ev Kredisi Hesapla</h1><center>
+
+{% if sonuc_basari != "" %}
+    <div class="alert alert-success" role="alert">
+        {{sonuc_basari}}
+    </div>
+{% else %}
+{% endif %}
+
+{% if sonuc_olumsuz != "" %}
+    <div class="alert alert-danger" role="alert">
+        {{sonuc_olumsuz}}
+    </div>
+{% else %}
+{% endif %}
+
+<form action="/sonuc" method="POST">
+  <div class="form-group">
+    <input style="width:20%; margin-top:20px;" type="text" class="form-control" name="EXT_SOURCE_3" placeholder="3. Kaynak Kodu (0-1)">
+  </div>
+
+  <div class="form-group">
+    <input style="width:20%; margin-top:20px;" type="text" class="form-control" name="DAYS_LAST_PHONE_CHANGE" placeholder="Son Telefon Değiştirmenin Üzerinden Geçen Gün">
+  </div>
+
+
+  <div class="form-group">
+    <input style="width:20%; margin-top:20px;" type="text" class="form-control" name="DAYS_CREDIT" placeholder="Kaç Günlük Kredi Alacaksın?">
+  </div>
+
+
+  <div class="form-group">
+    <input style="width:20%; margin-top:20px;" type="text" class="form-control" name="EXT_SOURCE_2" placeholder="2. Kaynak Kodu (0-1)">
+  </div>
+
+  <div class="form-group">
+    <input style="width:20%; margin-top:20px;" type="text" class="form-control" name="AMT_CREDIT_x" placeholder="Kredi Tutarı">
+  </div>
+
+  <div class="form-group">
+    <input style="width:20%; margin-top:20px;" type="text" class="form-control" name="AMT_ANNUITY_x" placeholder="Yıllık Gelirin">
+  </div>
+  <button type="submit" class="btn btn-primary">Hesapla</button>
+</form>
+</div>
+</body>
+</html>

@@ -28,5 +28,5 @@ Veriseti olarak Kaggle'da 2018'de yapılan bir yarışmanın verisetinin zamanı
 
 *Verisetinin ham haline [Bu Link](https://www.kaggle.com/c/home-credit-default-risk) üzerinden erişebilirsiniz*
 
-** Atölyede kullanacağımız haline ise [Buradan](https://drive.google.com/file/d/1K2Pu_dPZJNUtklQo6vAybgH07L6-t2X6/view?usp=sharing) erişebilirsiniz **
+**Atölyede kullanacağımız haline ise [Buradan](https://drive.google.com/file/d/1K2Pu_dPZJNUtklQo6vAybgH07L6-t2X6/view?usp=sharing) erişebilirsiniz**
 

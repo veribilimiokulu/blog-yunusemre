@@ -26,5 +26,15 @@ Gerekli Kütüphaneler,
 
 Kütüphane kurulumları için gerekli bilgilere [Bu Linkten Erişebilirsiniz](https://packaging.python.org/tutorials/installing-packages/)
 
-# Veriseti
+# Veri Kümesi Bilgileri:
+Bu perakende veri seti, 01/12/2009 ve 17/05/2010 tarihleri ​​arasındaki perakende satışlar için gerçekleşen tüm işlemleri içerir. Bu linkten indirilebilir: https://archive.ics.uci.edu/ml/datasets/Online+Retail+II
 
+Özellikler:
+- Fatura No: Fatura numarası. Nominal.
+- StockCode: Ürün kodu. 
+- Açıklama: Ürün adı. 
+- Miktar: İşlem başına her bir ürünün miktarları. 
+- InvoiceDate: Fatura tarihi ve saati. 
+- BirimFiyat: Birim fiyat. Birim başına ürün fiyatı.
+- MüşteriNo: Müşteri numarası. Her müşteriye benzersiz bir şekilde atanan 5 basamaklı bir numara.
+- Ülke: Ülke adı. Müşterinin ikamet ettiği ülkenin adı.
